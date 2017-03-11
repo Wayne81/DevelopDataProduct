@@ -1,0 +1,40 @@
+---
+title: "Orange Tree Growthing Prediction"
+author: "Wayne Chan"
+date: "2017-03-10"
+output: 
+  ioslides_presentation: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+This was built for the course Developing Data Products as part of Data Science Specialization in Coursera.
+
+The shiny app developed for this assignment is avalilable at: https://doost.shinyapps.io/shinyapp/
+
+The source codes of ui.R and server.R and also Rpresentation are available on the GitHub repo: https://github.com/emamdoost/Developing_Data_Products
+
+
+## Methodology
+
+I will use a sample dataset named "Orange" in R datasets to formula a simple linear regression. The model generated from the regression will apply to later function of predition. While a user move the slider bar to select a value of days of orange tree growthing, it will estimate the predicted circumference of orange tree and show in the web page.
+
+
+## Regression Modeling
+
+```{r Orange, echo = TRUE}
+summary(lm(circumference~age, Orange))
+```
+
+## Residual Plot of Regression 
+
+```{r}
+par(mfrow = c(2, 2))
+plot(lm(circumference~age, Orange))
+```
+
