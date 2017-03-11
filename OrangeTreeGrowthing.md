@@ -48,5 +48,5 @@ summary(lm(circumference~age, Orange))
 
 ## Residual Plot of Regression 
 
-![](OrangeTreeGrowthing_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
+![](OrangeTreeGrowthing_files/Rplot.png)<!-- -->
 
