@@ -8,9 +8,9 @@ Wayne Chan
 
 This was built for the course Developing Data Products as part of Data Science Specialization in Coursera.
 
-The shiny app developed for this assignment is avalilable at: https://doost.shinyapps.io/shinyapp/
+The shiny app developed for this assignment is avalilable at: https://wayne81.shinyapps.io/Orange_Tree_Growthing/
 
-The source codes of ui.R and server.R and also Rpresentation are available on the GitHub repo: https://github.com/emamdoost/Developing_Data_Products
+The source codes of ui.R and server.R and also Rpresentation are available on the GitHub repo: https://github.com/Wayne81/DevelopDataProduct
 
 
 ## Methodology
